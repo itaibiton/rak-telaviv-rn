@@ -1,7 +1,7 @@
 {
   "name": "rak-telaviv-rn",
   "version": "1.0.0",
-  "main": "expo/AppEntry.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,8 +9,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "babel-plugin-module-resolver": "^5.0.2",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
+    "firebase": "^10.14.0",
     "react": "18.2.0",
     "react-native": "0.74.5"
   },
