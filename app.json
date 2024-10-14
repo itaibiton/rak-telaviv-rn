@@ -8,11 +8,17 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "platforms": ["ios", "android"],
+    "extra": {
+        "supportsRTL": true,
+        "forcesRTL": true
+      },
+      "plugins": ["expo-localization"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+      
     "ios": {
       "supportsTablet": true
     },
